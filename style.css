@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.index{
+    text-align: center;
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+a{
+text-decoration: none;
+}
+.navbar a{
+    color: grey;
+}
+.navbar li{
+    border-left: 1px solid rgba(222, 224, 240, 0.918);
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    display: inline-block;
+    flex-direction: row;
+    font-size: 15px;
+    color: grey;
+}
+.navbar .fa .fa-search{
+    font-size: 18px;
+    color: grey;
+}
+.navbar input{
+    margin-right: 200px;
+    padding: 8px;
+    font-size: 15px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}    
+      
+.navbar .no-outline:focus {
+        outline: none;
+}
+
+.navbar .nav1{
+    text-align: center;
+}
+.nav1 a{
+    padding: 15px;
+    padding-right: 15;
+}
+.nav2 a{
+    padding: 15px;
+    padding-right: 15;
+}
+.nav2 img{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+
+.nav3 button{
+    padding: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    transition-duration: 0.4s;
+    background-color: white;
+    color: grey;
+}
+.nav3 button:hover{
+    cursor: pointer;
+}
+
+.nav3 .login{
+    background-color: white;
+    color: grey;
+}
+.nav3 .signup{
+    background-color: rgb(30, 75, 114);
+    color: white;
+}
+.slider{
+    background: linear-gradient(rgba(0, 11, 61, 0.3), rgba(2, 11, 138, 0.3)), url("images/slider.jpg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    height: 430px; 
+    background-size: 100%;
+    padding-top: 100px;
+}
+
+.slider h1{
+    font-size: 40px;
+}
+
+.slider a{
+    color: rgb(81, 153, 211);
+    font-weight: bold;
+}
+.btns li{
+    margin: 0; 
+    display: inline-block;
+    flex-direction: row;
+}
+
+.slider input{
+    margin-right: 50px;
+    margin-bottom: 30px;
+    padding: 13px;
+    font-size: 22px;
+    text-align: left;
+    width: 300px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-color: white;
+    background-color: transparent;
+    cursor: text;
+}
+.slider ::placeholder{
+    color: white;
+}
+
+.slider .dropup{
+    background-color: transparent;
+    color: white;
+    padding: 13px;
+    font-size: 22px;
+    margin-bottom: 30px;
+    text-align: left;
+    width: 150px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-color: white;
+    margin-right: 50px;
+    word-spacing: 30px;
+    cursor: pointer;
+}
+
+
+.slider .searchbtn{
+    padding: 13px;
+    color: white;
+    font-size: 22px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(35, 147, 238);
+}
+
+
